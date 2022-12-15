@@ -39,8 +39,8 @@ div h2{
 }
 .users{
   margin-top: 1vh;
-  width: 95%;
-  padding-right: 5%;
+  width: 100%;
+  padding-right: 2%;
   height: 68vh;
   overflow:scroll;
   overflow-x: hidden;

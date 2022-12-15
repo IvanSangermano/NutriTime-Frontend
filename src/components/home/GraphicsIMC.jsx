@@ -2,7 +2,7 @@ import React from 'react';
 import {  useSelector } from 'react-redux';
 import 'antd/dist/antd.css'
 import {Line} from '@ant-design/charts';
-import styles from './HomeStyle.module.css';
+import styles from './GraphicsIMC.module.css';
 
 export const GraphicsIMC = () => {
   const {

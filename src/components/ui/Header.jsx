@@ -13,13 +13,13 @@ export const Header = ({ title }) => {
         <h1>{title}</h1>
       </div>
       <div className={styles.redes}>
-        <a href="https://www.instagram.com/ivan.sanger" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/nutritime_app/" target="_blank" rel="noopener noreferrer">
           <AiFillInstagram className={styles.ig}/>
         </a>
-        <a href="https://twitter.com/SangerIvan" target="_blank" rel="noopener noreferrer">
+        <a href="https://twitter.com/NutriTimeApp" target="_blank" rel="noopener noreferrer">
           <BsTwitter className={styles.tw}/>
         </a>
-        <a href="https://www.youtube.com/@auron" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.youtube.com/channel/UCwjpQ2AvhpvZVO2rugFSyQg" target="_blank" rel="noopener noreferrer">
           <AiFillYoutube className={styles.yt}/>
         </a>
       </div>

@@ -1,17 +1,33 @@
 @import "@fontsource/poppins";
 
-
+.spaceContainter {
+  inset: 0% 0 0 0;
+  top: 0;
+  left: 0;
+  width: 0vw;
+  position: fixed;
+}
+.spaceContainterActive{
+  inset: 0% 0 0 0;
+  top: 0;
+  left: 0;
+  width: 230px;
+  position: fixed;
+  transition: 0.4s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(0.4rem);
+}
 .container {
   margin: 20px 0px 20px 20px;
   top: 52px;
   height: 70px;
   width: 68px;
-  background-color: #fff;
   border-radius:  50px;
-  position: relative;
+  position: fixed;
   transition: 0.4s ease;
   display: flex;
-  flex-direction: column
+  flex-direction: column;
+  background-color: #fff;
 }
 .containerActive{
   margin: 20px 130px 0 20px ;
@@ -20,7 +36,7 @@
   width: 68px;
   background-color: #fff;
   border-radius:  50px;
-  position: relative;
+  position: fixed;
   transition: 0.4s ease;
   display: flex;
   flex-direction: column

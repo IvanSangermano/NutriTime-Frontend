@@ -35,10 +35,10 @@
   padding-top: 1rem;
 }
 .exercises{
-    margin-top: 1vh;
-    width: 95%;
-    padding-right: 5%;
-    height: 68vh;
-    overflow:scroll;
-    overflow-x: hidden;
+  margin-top: 1vh;
+  width: 100%;
+  padding-right: 2%;
+  height: 68vh;
+  overflow:scroll;
+  overflow-x: hidden;
 }

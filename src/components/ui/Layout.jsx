@@ -7,16 +7,18 @@ import styles from './Layout.module.css';
 export const Layout = ({ children }) => {
   
   return (
+    <>
+    <NavBar/>
     <div className={styles.mainWrapper}>
-      <NavBar/>
       <div className={styles.body}>
-        <Header title="GymTime" />
+        <Header title="NutriTime" />
         <div className={styles.content}>
           {children}
         </div>
         <div className={styles.foot}></div>
       </div>
     </div>
+    </>
   );
 };
 
