@@ -30,7 +30,7 @@ export const Login = () => {
     <Grid>
       <nav className={styles.nav}>
         <img src={logo}></img>
-        <h1>GymTime</h1>
+        <h1>NutriTime</h1>
       </nav>
       <Paper elevation={10} className={styles.paperStyle}>
         <Grid align="center">

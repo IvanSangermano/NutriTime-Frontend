@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import { setUserCredentials } from './redux/actions/usersAction';
 import { MainRouter } from './routers/MainRouter';
-import './Gymtime.module.css';
+import './NutriTime.module.css';
 import { useHistory } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 
-function GymTimeApp() {
+function NutriTimeApp() {
   const history = useHistory();
   const dispatch = useDispatch()
 
@@ -21,4 +21,4 @@ function GymTimeApp() {
   return <MainRouter />;
 }
 
-export default GymTimeApp;
+export default NutriTimeApp;
